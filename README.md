@@ -31,5 +31,5 @@ $ ./install_packages_deps.sh
 
 Para personalizar o script, basta modificar a variável `PACKAGES` no script. Por exemplo, se você quiser instalar `wget`, `curl` e `git`, pode alterar a linha:
 ```
-PACKAGES=("vim" "htop" "tmux")
+PACKAGES=("packages")
 ```
