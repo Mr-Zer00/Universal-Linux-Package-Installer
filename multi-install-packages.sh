@@ -124,8 +124,8 @@ install_packages() {
 
 # Main function
 main() {
-    # Packages to be installed (add or remove packages as necessary)
-    PACKAGES=("wget" "curl" "git")
+    # Packages to be installed (add or remove packages as necessary). Ex: "wget" "curl" "git"
+    PACKAGES=("packages")
 
     identify_distro
     echo -e "${GREEN}Distribution identified: ${BOLD}$DISTRO${NC}"
